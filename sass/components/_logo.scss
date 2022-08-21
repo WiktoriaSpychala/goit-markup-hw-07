@@ -1,0 +1,24 @@
+.logo {
+    @extend %logo-font-set;
+    text-decoration: none;
+    margin-right: 93px;
+
+       &__first-word {
+       color: $color-blue;
+    }
+       &__second-word {
+       color: $color-black;
+    }
+       &__second-word-footer {
+       color: $color-white;
+    }
+}
+
+.footer__logo {
+    @extend %logo-font-set;
+    text-decoration: none;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: max-content;
+}
